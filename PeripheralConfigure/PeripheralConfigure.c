@@ -22,6 +22,8 @@
  * This function will set system clock to 80MHz and configure the necessary GPIO Pin for other peripherals
  * Two GPIO Port F and E will be configured since Port F is responsible for LED control and Timer
  * and Port E is responsible for ADC feature.
+ *
+ * The TivaC driverlib will be used for the SysCtlClockSet function
  */
 void GeneralConfigure(){
    //Set clock to 80MHz
@@ -46,8 +48,7 @@ void GeneralConfigure(){
 /*
  * This function will configure subtimer A of timer 0 (32 bits), runs for 44.1KHz to trigger ADC
  * Noted that since the system clock is 80MHz -. 44.1Khz -> 1814 clocks
- * Edited 5/12/2019 set back to the sample rate of 22050Hz to trigger ADC, which is 3628 clocks
- * Edited 18/02/2020 set back to the sample rate of 40000Hz to trigger ADC, which is 3628 clocks
+ * Edited 26/02/2020 set back to the sample rate of 32kHz to trigger ADC, which is 2500 clocks
  *
  */
 void Timer0A_ADCConfigure(){
@@ -84,6 +85,9 @@ void Timer1A_Configure(){
 
 }
 
+/*
+ * Idle timer for future upgrades
+ */
 void Timer2A_SSIConfigure(){
     //Enable and configure subtimer A of timer 1 to be Periodic
     TimerPeripheralEnable(TIMER_2);

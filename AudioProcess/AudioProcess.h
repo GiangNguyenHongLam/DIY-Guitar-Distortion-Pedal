@@ -12,9 +12,12 @@
 #define NUMBER_OF_MODES         5
 
 
-
+/*
+ * Basic operations
+ */
 extern uint16_t AudioProcessSampleBySample(uint16_t input, volatile  uint32_t *parameter,volatile bool bypassed);
-
+extern void ParameterProcessing(volatile uint32_t* parameter, uint16_t* upperThres, uint16_t* lowerThres,
+                                float* gain, float* drive1, float* drive2, uint8_t *pedalMode);
 /*
  * Effects
  */

@@ -15,7 +15,6 @@ AudioProcess/AudioProcess.obj: E:/CCS9.0/ccs/tools/compiler/ti-cgt-arm_18.12.2.L
 AudioProcess/AudioProcess.obj: E:/CCS9.0/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/linkage.h
 AudioProcess/AudioProcess.obj: E:/CCS9.0/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/_defs.h
 AudioProcess/AudioProcess.obj: E:/CCS9.0/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_limits.h
-AudioProcess/AudioProcess.obj: ../AudioProcess/LookUpTable.h
 AudioProcess/AudioProcess.obj: ../AudioProcess/FastMathApproximation.h
 AudioProcess/AudioProcess.obj: ../AudioProcess/AudioProcess.h
 
@@ -34,6 +33,5 @@ E:/CCS9.0/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/_ti_config.h:
 E:/CCS9.0/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/linkage.h: 
 E:/CCS9.0/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/_defs.h: 
 E:/CCS9.0/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include/machine/_limits.h: 
-../AudioProcess/LookUpTable.h: 
 ../AudioProcess/FastMathApproximation.h: 
 ../AudioProcess/AudioProcess.h: 
