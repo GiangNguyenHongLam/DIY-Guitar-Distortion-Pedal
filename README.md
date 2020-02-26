@@ -10,9 +10,7 @@ Hardware:
 - LM358P
 - 3.3 and 5.0v LM1117
 
-Diagram:
-Signal Diagram
+Signal and Power Diagram:
 ![](Document/SignalDiagram.png)
-Power Diagram
 ![](Document/PowerDiagram.png)
 
